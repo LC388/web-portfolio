@@ -54,6 +54,9 @@ h1{
   color: #79828a;
 }
 
+h6{
+  text-align: center;
+}
 
 /* h2 centering for about me, and contact section */
 .cont1{
