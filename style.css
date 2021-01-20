@@ -1,7 +1,7 @@
 
 
 /* 
-main header (logo, nav)
+main header (logo, nav), margin, padding, text-align criteria met
 */
 
 .banner{
@@ -13,6 +13,7 @@ main header (logo, nav)
 }
 
  .logo {
+  font-family: 'Homemade Apple', cursive;
   color: #285178;
   padding: 0px 0px 0px 0px;
   margin: 0;
@@ -47,6 +48,8 @@ main header (logo, nav)
 }
 
 h1{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
   text-align: center;
   color: #79828a;
 }
@@ -54,14 +57,16 @@ h1{
 
 /* h2 centering for about me, and contact section */
 .cont1{
+  font-family: 'Homemade Apple', cursive;
   text-align: center;
   padding-bottom: 25px;
-  color: #79828a;
+  color: #5b80a3;
 }
 
 .about {
+  font-family: 'Homemade Apple', cursive;
   text-align: center;
-  color: #79828a;
+ color: #5b80a3;
 }
 
 
@@ -104,18 +109,32 @@ p{
 
 
 .cont2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
    text-align: center;
     border: 10px outset;
     width: 30%;
     padding: 50px;
-  background-color: #e8e6df;
+  background-color: #e8e6df59;
 }
 
 
 /*adding color and features*/
 
 body {
-
-  background-color: #d9d1ba;
-color: #5b80a3;
+font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  background-color: white;
+color: #79828a
 }
+
+/* styling pseudo elements */
+
+nav a {color: #285178;}
+nav a:hover{color: #7ebacc ;}
+nav a:active{color: aliceblue}
+
+a {color: #285178}
+a:hover{color:#d9d1ba;}
+a:active{color: antiquewhite;}
